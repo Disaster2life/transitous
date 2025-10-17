@@ -31,6 +31,18 @@
                 }
             },
             "function": "delhi_gov_in_csrf"
-        }
+        },
+	{
+		"name": "NCRTC",
+		"type": "http",
+		"url": "https://delhi.transportstack.in/data-services/datadetails/5",
+		"http-options": {
+		    "method": "POST",
+		    "header": {
+			"Content-Type": "application/x-www-form-urlencoded"
+		    }
+	}
+	
+	}
     ]
 }
